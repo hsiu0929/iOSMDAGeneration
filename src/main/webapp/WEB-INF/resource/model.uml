@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gjp6AHRWEei_dIdQ6BO69A" name="NewModel">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_hXB3sHRWEei_dIdQ6BO69A" name="NewModel statemachine">
+    <region xmi:id="_hXB3sXRWEei_dIdQ6BO69A" name="Region1">
+      <transition xmi:id="_hp3esHRXEei_dIdQ6BO69A" source="_kDyY4HRWEei_dIdQ6BO69A" target="_8W7zsHRWEei_dIdQ6BO69A">
+        <eAnnotations xmi:id="_bWVOoHRYEei_dIdQ6BO69A" source="UI Component">
+          <details xmi:id="_eZvVQHRYEei_dIdQ6BO69A" key="Type" value="Button"/>
+          <details xmi:id="_gqIqkHRYEei_dIdQ6BO69A" key="VariableName" value="AddSpending"/>
+        </eAnnotations>
+        <effect xmi:type="uml:FunctionBehavior" xmi:id="_1BxHgHRXEei_dIdQ6BO69A" name="doTransition"/>
+        <trigger xmi:id="_y7XbsHRXEei_dIdQ6BO69A" name="touchUpInside" event="_BYE5gGehEeeXb5zB3y8pqA"/>
+      </transition>
+      <transition xmi:id="_iJc9sHRXEei_dIdQ6BO69A" source="_kDyY4HRWEei_dIdQ6BO69A" target="_VAeVQHRXEei_dIdQ6BO69A">
+        <eAnnotations xmi:id="_rg4xsHRYEei_dIdQ6BO69A" source="UI Component">
+          <details xmi:id="_CoBsYHRZEei_dIdQ6BO69A" key="Type" value="Button"/>
+          <details xmi:id="_ESfDEHRZEei_dIdQ6BO69A" key="VariableName" value="ReviseSpending"/>
+        </eAnnotations>
+        <effect xmi:type="uml:FunctionBehavior" xmi:id="_DXRNcHRYEei_dIdQ6BO69A" name="doTransition"/>
+        <trigger xmi:id="_CGI8wHRYEei_dIdQ6BO69A" name="touchUpInside" event="_BYE5gGehEeeXb5zB3y8pqA"/>
+      </transition>
+      <transition xmi:id="_igzGsHRXEei_dIdQ6BO69A" source="_kDyY4HRWEei_dIdQ6BO69A" target="_Xe44cHRXEei_dIdQ6BO69A">
+        <eAnnotations xmi:id="_r-abMHRYEei_dIdQ6BO69A" source="UI Component">
+          <details xmi:id="_GrmPgHRZEei_dIdQ6BO69A" key="Type" value="Button"/>
+          <details xmi:id="_I0WEsHRZEei_dIdQ6BO69A" key="VariableName" value="RemoveSpending"/>
+        </eAnnotations>
+        <effect xmi:type="uml:FunctionBehavior" xmi:id="_H4Vk4HRYEei_dIdQ6BO69A" name="doTransition"/>
+        <trigger xmi:id="_JuX5cHRYEei_dIdQ6BO69A" name="touchUpInside" event="_BYE5gGehEeeXb5zB3y8pqA"/>
+      </transition>
+      <transition xmi:id="_i5pEgHRXEei_dIdQ6BO69A" source="_kDyY4HRWEei_dIdQ6BO69A" target="_ZaZi4HRXEei_dIdQ6BO69A">
+        <eAnnotations xmi:id="_sZJ2cHRYEei_dIdQ6BO69A" source="UI Component">
+          <details xmi:id="_Lek2UHRZEei_dIdQ6BO69A" key="Type" value="Button"/>
+          <details xmi:id="_NXjKIHRZEei_dIdQ6BO69A" key="VariableName" value="AnalysisSpending"/>
+        </eAnnotations>
+        <effect xmi:type="uml:FunctionBehavior" xmi:id="_QiAwcHRYEei_dIdQ6BO69A" name="doTransition"/>
+        <trigger xmi:id="_OXQJEHRYEei_dIdQ6BO69A" name="touchUpInside" event="_BYE5gGehEeeXb5zB3y8pqA"/>
+      </transition>
+      <transition xmi:id="_jUt28HRXEei_dIdQ6BO69A" source="_kDyY4HRWEei_dIdQ6BO69A" target="_d6zL8HRXEei_dIdQ6BO69A">
+        <eAnnotations xmi:id="_tTD58HRYEei_dIdQ6BO69A" source="UI Component">
+          <details xmi:id="_UcfzkHRZEei_dIdQ6BO69A" key="Type" value="Button"/>
+          <details xmi:id="_WNWtMHRZEei_dIdQ6BO69A" key="VariableName" value="Description"/>
+        </eAnnotations>
+        <effect xmi:type="uml:FunctionBehavior" xmi:id="_YG43IHRYEei_dIdQ6BO69A" name="doTransition"/>
+        <trigger xmi:id="_XGXOQHRYEei_dIdQ6BO69A" name="touchUpInside" event="_BYE5gGehEeeXb5zB3y8pqA"/>
+      </transition>
+      <transition xmi:id="_jy5AsHRXEei_dIdQ6BO69A" source="_8W7zsHRWEei_dIdQ6BO69A" target="_G9-q4HRXEei_dIdQ6BO69A">
+        <eAnnotations xmi:id="_p60y0HRYEei_dIdQ6BO69A" source="UI Component">
+          <details xmi:id="_za4z0HRYEei_dIdQ6BO69A" key="Type" value="Button"/>
+          <details xmi:id="_1Bb64HRYEei_dIdQ6BO69A" key="VariableName" value="ManageSpendingType"/>
+        </eAnnotations>
+        <effect xmi:type="uml:FunctionBehavior" xmi:id="_4VjMcHRXEei_dIdQ6BO69A" name="doTransition"/>
+        <trigger xmi:id="_2lVzEHRXEei_dIdQ6BO69A" name="touchUpInside" event="_BYE5gGehEeeXb5zB3y8pqA"/>
+      </transition>
+      <transition xmi:id="_kKjSwHRXEei_dIdQ6BO69A" source="_G9-q4HRXEei_dIdQ6BO69A" target="_JqGS4HRXEei_dIdQ6BO69A">
+        <eAnnotations xmi:id="_qgK7kHRYEei_dIdQ6BO69A" source="UI Component">
+          <details xmi:id="_4n_x4HRYEei_dIdQ6BO69A" key="Type" value="Button"/>
+          <details xmi:id="_6bPRIHRYEei_dIdQ6BO69A" key="VariableName" value="AddSpendingType"/>
+        </eAnnotations>
+        <effect xmi:type="uml:FunctionBehavior" xmi:id="_7HvAMHRXEei_dIdQ6BO69A" name="doTransition"/>
+        <trigger xmi:id="_5y7wcHRXEei_dIdQ6BO69A" name="touchUpInside" event="_BYE5gGehEeeXb5zB3y8pqA"/>
+      </transition>
+      <transition xmi:id="_mnWFUHRXEei_dIdQ6BO69A" source="_G9-q4HRXEei_dIdQ6BO69A" target="_MF6OAHRXEei_dIdQ6BO69A">
+        <eAnnotations xmi:id="_q6LXAHRYEei_dIdQ6BO69A" source="UI Component">
+          <details xmi:id="_9ArpYHRYEei_dIdQ6BO69A" key="Type" value="Button"/>
+          <details xmi:id="__LTG0HRYEei_dIdQ6BO69A" key="VariableName" value="RemoveSpendingType"/>
+        </eAnnotations>
+        <effect xmi:type="uml:FunctionBehavior" xmi:id="_AcBkUHRYEei_dIdQ6BO69A" name="doTransition"/>
+        <trigger xmi:id="__H4b4HRXEei_dIdQ6BO69A" name="touchUpInside" event="_BYE5gGehEeeXb5zB3y8pqA"/>
+      </transition>
+      <transition xmi:id="_ngZ0QHRXEei_dIdQ6BO69A" source="_ZaZi4HRXEei_dIdQ6BO69A" target="_cCNSoHRXEei_dIdQ6BO69A">
+        <eAnnotations xmi:id="_s2QpMHRYEei_dIdQ6BO69A" source="UI Component">
+          <details xmi:id="_QD9GAHRZEei_dIdQ6BO69A" key="Type" value="Button"/>
+          <details xmi:id="_Rw3TwHRZEei_dIdQ6BO69A" key="VariableName" value="DashboardSpending"/>
+        </eAnnotations>
+        <effect xmi:type="uml:FunctionBehavior" xmi:id="_Vn6TQHRYEei_dIdQ6BO69A" name="doTransition"/>
+        <trigger xmi:id="_UhZXIHRYEei_dIdQ6BO69A" name="touchUpInside" event="_BYE5gGehEeeXb5zB3y8pqA"/>
+      </transition>
+      <subvertex xmi:type="uml:State" xmi:id="_kDyY4HRWEei_dIdQ6BO69A" name="Main"/>
+      <subvertex xmi:type="uml:State" xmi:id="_8W7zsHRWEei_dIdQ6BO69A" name="AddSpending"/>
+      <subvertex xmi:type="uml:State" xmi:id="_G9-q4HRXEei_dIdQ6BO69A" name="ManageSpendingType"/>
+      <subvertex xmi:type="uml:State" xmi:id="_JqGS4HRXEei_dIdQ6BO69A" name="AddSpendingType"/>
+      <subvertex xmi:type="uml:State" xmi:id="_MF6OAHRXEei_dIdQ6BO69A" name="RemoveSpendingType"/>
+      <subvertex xmi:type="uml:State" xmi:id="_VAeVQHRXEei_dIdQ6BO69A" name="ReviseSpending"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Xe44cHRXEei_dIdQ6BO69A" name="RemoveSpending"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ZaZi4HRXEei_dIdQ6BO69A" name="AnalysisSpending"/>
+      <subvertex xmi:type="uml:State" xmi:id="_cCNSoHRXEei_dIdQ6BO69A" name="DashboardSpending"/>
+      <subvertex xmi:type="uml:State" xmi:id="_d6zL8HRXEei_dIdQ6BO69A" name="Description"/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_BYE5gGehEeeXb5zB3y8pqA" name="touchUpInside"/>
+</uml:Model>

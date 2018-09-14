@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_wxVpIHIGEeeoDYYKwvoKQg" name="com.example.lin.myapplication">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_xmUJUHIGEeeoDYYKwvoKQg" name="com.example.lin.myapplication">
+    <region xmi:id="_xmUJUXIGEeeoDYYKwvoKQg" name="Region1">
+    
+#foreach( $temp in $transitionList )
+      <transition xmi:id="$temp.getId()" source="$temp.getSource()" target="$temp.getTarget()">
+        <eAnnotations xmi:id="$temp.geteAnnotations().getId()" source="$temp.geteAnnotations().getSource()">
+#foreach( $tempDetails in $temp.geteAnnotations().getDetails() )
+          <details xmi:id="$tempDetails.getId()" key="$tempDetails.getKey()" value="$tempDetails.getValue()"/>
+#end
+        </eAnnotations>
+        <effect xmi:type="uml:FunctionBehavior" xmi:id="$temp.getEffect().getId()" name="doTransition"/>
+        <trigger xmi:id="$temp.getTrigger().getId()" name="$temp.getTrigger().getName()" event="_BYE5gGehEeeXb5zB3y8pqA"/>
+      </transition>
+#end
+
+#foreach( $temp in $stateList )
+      <subvertex xmi:type="uml:State" xmi:id="$temp.getId()" name="$temp.getName()"/>
+#end
+
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_BYE5gGehEeeXb5zB3y8pqA" name="onClick"/>
+</uml:Model>

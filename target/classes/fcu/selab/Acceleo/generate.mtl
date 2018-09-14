@@ -1,0 +1,31 @@
+[comment encoding = UTF-8 /]
+[module generate('http://org/model/iOSModel')]
+
+[template public generateElement(adocument : document)]
+	[comment @main /]
+	
+	[file (('TestUITests.swift'), false, 'UTF-8')]
+	import XCTest
+	class TestUITests: XCTestCase {
+
+	  	override func setUp() {
+	  	  	super.setUp()
+	   	  	continueAfterFailure = false
+	    	XCUIApplication().launch()
+		}
+
+	  	override func tearDown() {
+	    	super.tearDown()
+		}
+
+	 	func test(){
+			let app = XCUIApplication()
+		[for(sub : subviews | adocument.scenes.scene.objects.viewController.view.subviews)]
+			app.buttons['['+'"'+sub.button.state.title+'"'+']'/].tap()
+			XCTAssert(app.otherElements['['+'"'+sub.button.connections.segue.destination+'"'+']'/].exists)
+		[/for]
+		}	
+	}
+	[/file]
+
+[/template]

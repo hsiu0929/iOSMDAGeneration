@@ -1,0 +1,27 @@
+#set( $pname = $projectName)
+#set( $count = $subStateMachieCount)
+#set( $location = $location)
+require 'xcodeproj'
+project_path = '$location##
+$pname##
+/$pname##
+.xcodeproj'
+project = Xcodeproj::Project.open(project_path)
+
+target = project.targets.find{|item| item.to_s == '$pname##
+UITests' }
+
+group = project.main_group.find_subpath(File.join('$pname##
+UITests'), true)
+group.set_source_tree('SOURCE_ROOT')
+
+file_ref = group.new_reference('$location##
+$pname##
+/$pname##
+UITests/$pname##
+UITests_$subStateMachieCount##
+.swift')
+target.add_file_references([file_ref])
+
+project.save
+

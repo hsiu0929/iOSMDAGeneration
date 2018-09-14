@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+<comment>StateMachineToSubStateMachineGenerate</comment>
+
+<!-- StateMachineToSubStateMachineGenerate -->
+<entry key="MainStateMachinePath">src/main/webapp/WEB-INF/resource/Models/model.uml</entry>
+<entry key="SubStateMachinePath">src/main/webapp/WEB-INF/resource/subStateMachine</entry>
+
+<!-- Velocity -->
+<!-- D:/Data/M2Tworkspace/iOSMDA/resource/Velocity -->
+
+<entry key="file.resource.loader.path">src/main/webapp/WEB-INF/resource/Velocity</entry>
+<entry key="VelocityTemplatePath">subStateMachine.vm</entry>
+
+</properties>
